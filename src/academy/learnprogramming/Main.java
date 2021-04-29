@@ -33,5 +33,8 @@ public class Main {
         if (!isCar) {
             System.out.println("This is not supposed to happen");
         }
+
+        boolean wasCar = isCar ? false : true;
+        System.out.println("wasCar = " + wasCar);
     }
 }
