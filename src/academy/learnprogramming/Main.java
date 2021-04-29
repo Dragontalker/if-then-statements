@@ -30,7 +30,7 @@ public class Main {
         }
 
         boolean isCar = false;
-        if (isCar = true) {
+        if (isCar == true) {
             System.out.println("This is not supposed to happen");
         }
     }
