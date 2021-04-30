@@ -36,5 +36,15 @@ public class Main {
 
         boolean wasCar = isCar ? false : true;
         System.out.println("wasCar = " + wasCar);
+
+        // Challenge
+        double firstValue = 20.00d;
+        double secondValue = 80.00d;
+        double totalValue = (firstValue + secondValue) * 100.00d;
+        double remainderValue = (int) totalValue % 40.00d;
+        boolean checkZero = remainderValue == 0;
+        if (checkZero) {
+            System.out.println("The remainder from #4 is zero");
+        }
     }
 }
