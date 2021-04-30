@@ -40,11 +40,13 @@ public class Main {
         // Challenge
         double firstValue = 20.00d;
         double secondValue = 80.00d;
-        double totalValue = (firstValue + secondValue) * 100.00d;
+        double totalValue = firstValue + secondValue * 100.00d;
+        System.out.println("totalValue = " + totalValue);
         double remainderValue = (int) totalValue % 40.00d;
-        boolean checkZero = remainderValue == 0;
-        if (checkZero) {
-            System.out.println("The remainder from #4 is zero");
+        System.out.println("remainderValue = " + remainderValue);
+        boolean checkZero = (remainderValue == 0) ? true : false;
+        if (!checkZero) {
+            System.out.println("Got some remainder");
         }
     }
 }
